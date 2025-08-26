@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+svg {
+  margin-top: 50px;
+  
+}
+
+.dot {
+    stroke: black;
+    stroke-width: 1px;
+  }
+.dot:hover {
+      opacity: 0.5;
+      cursor: pointer;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: .875rem;
+  text-align: start;
+}
